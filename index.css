@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(0, 174, 255), rgb(255, 0, 221));
+    margin: 30px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: rgb(14, 30, 37) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#form_id {
+    width: 100%;
+}
+
+.box h1 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#odd,
+#even,
+#marks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#odd h2,
+#even h2 {
+    font-size: 1.4rem;
+    color: white;
+}
+
+#marks h1,
+span {
+    font-size: 16px;
+    color: white;
+}
+
+#mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#mid input {
+    margin: 5px 0px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: white;
+    width: 100%;
+    color: rgb(78, 0, 74);
+    font-weight: 600;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.place {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.place button {
+    font-size: 1.2rem;
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: rgba(0, 1, 2, 0.658) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#error {
+    width: 100%;
+    padding-top: 10px;
+}
