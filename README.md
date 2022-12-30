@@ -1,4 +1,4 @@
-<h4 align="center">MAKAUT Marks Calculator</h4>
+<h2 align="center">MAKAUT Marks Calculator</h2>
 
 ## Tech Stack
 
